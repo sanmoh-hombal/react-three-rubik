@@ -70,20 +70,6 @@ const Home: NextPage = () => {
 				<meta name="description" content="Online 3D rubik cube 3x3" />
 				<meta property="og:title" content="Magic Cube - Rubik 3x3" />
 				<meta property="og:description" content="Online 3D rubik cube 3x3" />
-				<meta property="og:url" content="http://magic-cube.vercel.app" />
-				<meta property="og:type" content="website" />
-				<meta property="og:image" content="https://magic-cube.vercel.app/thumbnail.png" />
-				<meta property="og:image:alt" content="Magic Cube - Rubik 3x3" />
-				<meta property="og:image:type" content="image/png" />
-				<meta property="og:image:width" content="1200" />
-				<meta property="og:image:height" content="630" />
-				<link rel="canonical" href="http://magic-cube.vercel.app" />
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:creator" content="@alisyahidin_" />
-				<meta name="twitter:site" content="@alisyahidin_" />
-				<meta name="twitter:title" content="Magic Cube - Rubik 3x3" />
-				<meta name="twitter:description" content="Online 3D rubik cube 3x3" />
-				<meta name="twitter:image" content="https://magic-cube.vercel.app/thumbnail.png" />
 			</Head>
 			<div
 				id="top-nav"
