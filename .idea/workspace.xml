@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5730d9dc-c0a7-4de8-8930-f5b6e407c26f" name="Changes" comment="RESET: To better composite 3d Models">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/rubik/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rubik/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,9 @@
       <workItem from="1658070736215" duration="3075000" />
       <workItem from="1658074724171" duration="9957000" />
       <workItem from="1658089552957" duration="5208000" />
-      <workItem from="1658120230137" duration="2597000" />
+      <workItem from="1658120230137" duration="3050000" />
+      <workItem from="1658157431822" duration="4000" />
+      <workItem from="1658673978378" duration="1918000" />
     </task>
     <task id="LOCAL-00001" summary="RESET: To better composite 3d Models">
       <created>1658119328434</created>

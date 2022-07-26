@@ -60,7 +60,8 @@ const Rubik = forwardRef<RubikRef, RubikProps>(({ size = 3, ...props }: RubikPro
 		const listenToKeyboard = (e: KeyboardEvent) => {
 			const key = e.key.toUpperCase();
 			if (key === "SHIFT") shiftKeyPressed.current = true;
-			if (Object.keys(CubeEntity.rotation).includes(key)) rotate(key as keyof RubikRotation, shiftKeyPressed.current);
+			if (Object.keys(CubeEntity.rotation).includes(key))
+				rotate(key as keyof RubikRotation, shiftKeyPressed.current).then(() => true);
 		};
 
 		window.addEventListener("keydown", listenToKeyboard);
@@ -150,7 +151,7 @@ const Rubik = forwardRef<RubikRef, RubikProps>(({ size = 3, ...props }: RubikPro
 							<Cube
 								name={`${x}-${y}-${z}`}
 								key={`${x}-${y}-${z}`}
-								position={[x + x * 1 + offset, y + y * 1 + offset, z + z * 1 + offset]}
+								position={[x + x + offset, y + y + offset, z + z + offset]}
 								faces={[
 									x === size - 1 ? "right" : null,
 									x === 0 ? "left" : null,
